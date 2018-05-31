@@ -16,7 +16,7 @@
           console.log(`something went wrong`);
           console.log(err);
         }
-        imgRequest.setRequestHeader('Authorization' , 'Client-ID sssf38193ece85790dfc1489a70d18a948e3d0923699791445f0f01bf57e8c6e7f1');
+        imgRequest.setRequestHeader('Authorization' , 'Client-ID f38193ece85790dfc1489a70d18a948e3d0923699791445f0f01bf57e8c6e7f1');
         imgRequest.send()
 
         //NYTimes articleRequest
