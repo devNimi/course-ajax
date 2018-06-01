@@ -37,7 +37,7 @@
       let htmlContent = '';
 
       if (articles.response && articles.response.docs && articles.response.docs.length > 1) {
-      	htmlContent = '<ul>' +  articles.response.docs.map(article => `<li class="aritcle">
+      	htmlContent = '<ul>' +  articles.response.docs.map(article => `<li class="article">
       	<h2><a href="${article.web_url}">${article.headline.main}</a></h2>
       	<p>${article.snippet}</p>
       	<li>`

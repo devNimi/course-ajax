@@ -37,7 +37,7 @@
       let htmlContent = '';
       const nyTimesdata = JSON.parse(this.responseText);
       if (nyTimesdata.response && nyTimesdata.response.docs && nyTimesdata.response.docs.length > 1) {
-      	htmlContent = '<ul>' +  nyTimesdata.response.docs.map(article => `<li class="aritcle">
+      	htmlContent = '<ul>' +  nyTimesdata.response.docs.map(article => `<li class="article">
       	<h2><a href="${article.web_url}">${article.headline.main}</a></h2>
       	<p>${article.snippet}</p>
       	<li>`
